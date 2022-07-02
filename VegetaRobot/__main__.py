@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
 
-~~ *I'm made by @boogeyman130304* ~~
+~~ *I'm Developed  by @boogeyman130304* ~~
 
 ~ *Wanna see my commands*[❗]({})
 *below click the help button!* ~
@@ -93,7 +93,7 @@ PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ Add John Wick To Groups ☑",
+                            text="✅ Add John Wick To Groups ✅",
                             url="t.me/JohnWick_130304_Robot?startgroup=true"),
                     ],
                      [

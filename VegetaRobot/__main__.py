@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
 
-~~ *I'm made with Saiyans blood* ~~
+~~ *I'm made by @boogeyman130304* ~~
 
 ~ *Wanna see my commands*[❗]({})
 *below click the help button!* ~
@@ -93,16 +93,16 @@ PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ Add Vegeta To Groups ☑",
-                            url="t.me/VegetaRobot?startgroup=true"),
+                            text="☑ Add John Wick To Groups ☑",
+                            url="t.me/JohnWick_130304_Robot?startgroup=true"),
                     ],
                      [
-                       InlineKeyboardButton(text="SUPPORT", url="https://t.me/{SUPPORT_CHAT}"),
-                       InlineKeyboardButton(text="UPDATES",  url="https://t.me/{UPDATES_CHANNEL}"),
+                       InlineKeyboardButton(text="SUPPORT", url="https://t.me/bromusic1303"),
+                       InlineKeyboardButton(text="UPDATES",  url="https://t.me/JohnWickSupport"),
                     ],
                    [
-                       InlineKeyboardButton(text="NETWORK", url="https://t.me/nandhabots"),
-                       InlineKeyboardButton(text="LOGS", url="https://t.me/vegetalogs"),
+                       InlineKeyboardButton(text="NETWORK", url="https://t.me/WinterSoIdierX25"),
+                       InlineKeyboardButton(text="LOGS", url="https://t.me/JohnWickLogs"),
                 ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
          ),
     ],
@@ -116,7 +116,7 @@ Below Click the module you know about module commands!*
 """
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """*don't need donate I'm free for everyone add your group's in @VegetaRobot this is my donate🙂*"""
+DONATE_STRING = """*don't need donate I'm free for everyone add your group's in @bromusic1303 this is my donate🙂*"""
 HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
 GROUPSTART_IMG= "https://telegra.ph/file/1cbafa58dda18528f9e0c.mp4"
 

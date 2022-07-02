@@ -232,15 +232,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_animation(
-            GROUPSTART_IMG, caption= "*hello!\n ┗► {} ◄┛,*\n*Super Saiyan here*\n*Power lavel time* : {} ".format(
+            GROUPSTART_IMG, caption= "*hello!\n ┗► {} ◄┛,*\n*John Wick here*\n*Power level time* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="SUPPORT", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="UPDATES", url=f"t.me/{UPDATES_CHANNEL}"),
+                  InlineKeyboardButton(text="SUPPORT", url=f"https://telegram.dog/bromusic1303"),
+                  InlineKeyboardButton(text="UPDATES", url=f"t.me/JohnWickSupport"),
                   ]
                 ]
             ),

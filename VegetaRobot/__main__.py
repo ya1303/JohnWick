@@ -117,12 +117,12 @@ Below Click the module you know about module commands!*
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """*don't need donate I'm free for everyone add your group's in @bromusic1303 this is my donate🙂*"""
-HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/1cbafa58dda18528f9e0c.mp4"
+HELP_IMG= "https://telegra.ph/file/8fab7fecdc59cff912615.jpg"
+GROUPSTART_IMG= "https://telegra.ph/file/dfd520155e891dd281ec8.jpg"
 
-VEGETA_IMG = ( "https://telegra.ph//file/a47f16c936dbbd4165399.jpg",
-               "https://telegra.ph//file/5026650d5e3f0b83c6d29.jpg",
-               "https://telegra.ph/file/561fa547f3c4940c95ddf.jpg",)       
+VEGETA_IMG = ( "https://telegra.ph/file/a0a2c3af6ef211dcc042f.jpg",
+               "https://telegra.ph/file/077b2e139c9f758adebed.jpg",
+               "https://telegra.ph/file/894dc1c613e578ebd9156.jpg",)       
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -708,7 +708,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Vegeta is now alive and functioning")
+        LOGGER.info("John Wick is now alive and functioning")
         updater.start_polling()
 
     if len(argv) not in (1, 3, 4):
